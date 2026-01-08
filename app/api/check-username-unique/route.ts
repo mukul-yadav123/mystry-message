@@ -1,4 +1,4 @@
-import {success, z} from "zod";
+import {z} from "zod";
 import dbConnect from "@/lib/dbConnect";
 import UserModel from "@/model/User";
 import { usernameValidation } from "@/schemas/signUpSchema";
